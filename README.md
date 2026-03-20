@@ -1,105 +1,167 @@
-MatterGen – AI-Assisted Materials Discovery (Prototype)
+🧪 MatterGen – AI-Assisted Materials Discovery
+🔍 Overview
 
-🧪 Overview
+MatterGen is a prototype platform that demonstrates how artificial intelligence can assist in materials discovery and analysis. It enables users to explore chemical compounds, simulate environmental conditions, and analyze material properties through an intuitive web interface.
 
-MatterGen is a prototype web interface built for hackathons to demonstrate the concept of AI-assisted materials discovery. The current version focuses on showcasing the user workflow, data flow, and analytical approach through a lightweight HTML/CSS-based demo.
-
-The full system is planned to be implemented in the final round using Streamlit, machine learning models, and chemistry libraries for real-time analysis and visualization.
+This project is developed as a hackathon prototype, focusing on showcasing the workflow, system design, and analytical logic. The final version will integrate real datasets, machine learning models, and chemical informatics tools for accurate predictions.
 
 🎯 Problem Statement
 
-Material discovery is slow, expensive, and heavily dependent on trial-and-error experimentation. Researchers lack intuitive tools that allow them to explore material properties, compare candidates, and understand trade-offs at an early stage.
+Material discovery is a slow, expensive, and trial-and-error-driven process. Researchers often lack accessible tools to:
+
+Explore compounds interactively
+
+Analyze how environmental conditions affect properties
+
+Identify alternative materials with similar characteristics
 
 💡 Proposed Solution
 
-MatterGen introduces a user-centric platform where researchers can:
+MatterGen provides a user-centric exploration platform where users can:
 
-Define target material properties
+Select a chemical compound from a dataset
 
-Explore candidate materials and their properties
+Define environmental conditions (e.g., pH, temperature)
 
-Understand how close candidates are to the desired requirements
+Analyze compound behavior under those conditions
 
-The prototype demonstrates this workflow visually, while the final version will automate it using AI and real datasets.
+🔬 Output Provided
 
-⚙️ Prototype Features (Current Version)
+🧬 Compound name and details
 
-Clean HTML/CSS-based web interface
+🧱 3D molecular structure (planned)
 
-Input fields for target material properties
+📊 Material properties
 
-Sample material data for demonstration
+🔗 Similarity score with other compounds
 
-Property comparison tables
+🧪 Suggested alternative compounds with similar properties
 
-Visual placeholders for analytics and results
+This allows users to quickly compare materials and make informed decisions.
 
-Clear representation of system flow and logic
+⚙️ Features (Prototype)
 
-⚠️ Note: This version is a conceptual and functional demo, not the final AI-powered system.
+Interactive compound selection
 
-🧠 Planned System Architecture
+Input fields for environmental parameters
 
-User inputs desired material properties
+Predefined dataset for simulation
 
-Backend processes constraints using ML models and materials databases
+Display of:
 
-Candidate materials are generated or fetched
+Compound details
 
-AI-based scoring and ranking is applied
+Property summaries
 
-Results are visualized with graphs and molecular structures
+Similarity results
+
+Clean UI representing system workflow
+
+⚠️ Note: This is a conceptual prototype. Data is illustrative and not scientifically validated.
+
+🧠 System Architecture (Planned)
+
+User selects compound and inputs conditions
+
+Backend processes inputs using:
+
+Materials databases
+
+ML models
+
+System evaluates:
+
+Property changes
+
+Similarity between compounds
+
+Output includes:
+
+Ranked similar compounds
+
+Property insights
+
+3D molecular visualization
 
 🛠️ Tech Stack
-Prototype (Current Round)
+🔹 Prototype
 
-Frontend: HTML, CSS, JavaScript
+HTML
 
-Deployment: Web-hosted demo (Replit / static hosting)
+CSS
 
-Final Implementation (Planned)
+JavaScript
 
-Backend & UI: Streamlit
+Static Hosting (Replit / GitHub Pages)
 
-Data & Analysis: Pandas, NumPy
+🔹 Final Implementation (Planned)
+
+Frontend & Backend: Streamlit
+
+Data Processing: Pandas, NumPy
 
 Visualization: Plotly, Py3Dmol
 
 Chemistry Tools: RDKit
 
-Data Sources: Materials Project API
+Data Source: Materials Project API
 
-ML Models: Property prediction and similarity scoring
+Machine Learning:
 
-🚀 Running the Prototype
+Property prediction
 
-The prototype is deployed as a static web demo and can be accessed via the provided link.
-No local setup is required for the prototype round.
+Similarity scoring
+
+🚀 How to Use (Prototype)
+
+Open the deployed web demo
+
+Select a compound from the list
+
+Enter environmental conditions (e.g., pH, temperature)
+
+View:
+
+Compound properties
+
+Analysis results
+
+Similar compounds with similarity scores
 
 🔮 Future Scope
 
-Full AI-driven backend with real materials data
+Integration with real materials databases
 
-Machine learning models for property prediction
+ML-based property prediction
 
-2D and 3D molecular/crystal structure visualization
+Interactive 3D molecular visualization
 
-Laboratory-validated datasets
+Large-scale similarity search
 
-Scalable deployment for research and industry use
+Deployment for research and industry applications
 
 ⚠️ Limitations
 
-No real ML models or databases are integrated in the prototype
+No real ML models integrated yet
 
-Data shown is illustrative and for demonstration only
+Static dataset for demonstration
 
-Advanced analytics and structure visualization are planned for later stages
+3D visualization is a placeholder
+
+Outputs are not experimentally validated
 
 👥 Team
 
-We are a student team interested in applying AI to scientific and sustainability challenges. Our focus is on building a strong conceptual foundation in the prototype and expanding it into a fully functional system in the final round.
+We are a student team exploring the application of AI in scientific discovery and sustainability. This project represents our effort to build a strong conceptual foundation for future development.
 
 📄 License
 
-This project is developed for educational and hackathon purposes.
+This project is intended for educational and hackathon purposes only.
+
+⭐ Acknowledgements 
+
+Materials Project
+
+RDKit Community
+
+Open-source scientific tools
